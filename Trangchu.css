@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#khungweb{
+    width: 1000px;
+    height: 7000px;
+    background-color: rgb(98, 211, 231);
+    margin: auto;
+}
+#khunghangngang1{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(215, 235, 106);
+    display: flex;
+}
+#khungbanner{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(230, 146, 146);
+}
+#anhbannerweb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#khungtimkiem{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(213, 180, 243);
+    display: flex;
+}
+#timkiem{
+    width: 100%;
+    height: 65%;
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#loc{
+    margin: 15px 10px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(67, 158, 31);
+    border-radius: 5px;
+}
+#khungtaikhoan{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(151, 124, 175);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#dangnhap{
+    width: 40%;
+    height: 70%;
+}
+#dangky{
+    width: 40%;
+    height: 70%;
+}
+#khungiconkinhlup{
+    /* background-color: azure; */
+
+}
+#iconkinhlup{
+    line-height: 55px;
+}
+#khunghangngang2{
+    width: 100%;
+    height: 55px;
+    background-color: aquamarine;
+    display: flex;
+}
+/* .menutrangchu{
+    background-color: brown;
+    flex: 1;
+    height: 100%;
+}
+#trangchu{
+    line-height: 55px;
+    margin: 25px;
+    font-size: 18px;
+}
+.menuanime{
+    background-color: rgb(224, 186, 186);
+    flex: 1;
+    height: 100%;
+}
+.menumanga{
+    background-color: brown;
+    flex: 1;
+    height: 100%;
+}
+.menunovel{
+    background-color: rgb(224, 186, 186);
+    flex: 1;
+    height: 100%;
+}
+.menutheloai{
+    background-color: brown;
+    flex: 1;
+    height: 100%;
+}
+.menunam{
+    background-color: rgb(224, 186, 186);
+    flex: 1;
+    height: 100%;
+}
+.menuxemnhieu{
+    background-color: brown;
+    flex: 1;
+    height: 100%;
+}
+.menubinhluannhieu{
+    background-color: rgb(224, 186, 186);
+    flex: 1;
+    height: 100%;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+#menu{
+    display: flex;
+}
+#nuttrangchu{
+   
+    flex: 1;
+}
+#nutanime{
+    flex: 1;
+}
+#nutmaga{
+    flex: 1;
+}
+#nutnovel{
+    flex: 2;
+}
+#nuttheloai{
+    flex: 1;
+}
+#nutnam{
+    flex: 1;
+}
+#nutxemnhieu{
+    flex: 1;
+}
+#nutbinhluannhieu{
+    flex: 2;
+}
+p{
+    margin: 20px 20px 20px 20px;
+}
